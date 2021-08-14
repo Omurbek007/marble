@@ -1,0 +1,42 @@
+.main__section {
+    background: url(../images/hero-bg-1.png) center center no-repeat;
+    background-color: khaki;
+    background-size: cover;
+    width: 1348px;
+    height: 600px;
+
+    & .main__section-inner {
+        height: calc(100vh - 64px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        h1 ,h2 {
+            margin-bottom: 40px;
+            font-family: Roboto Condensed;
+            font-weight: bold;
+            font-style: normal;
+            letter-spacing: .02em;
+        } h1 {
+            font-size: 40px;
+            color: #FFFFFF;
+        }
+        h2 { font-size: 35px;
+            color: #A8A8A8;
+        }
+        a {
+            padding: 15px 20px;
+            margin-top: 10px;
+            background-color: #3F8DBF;
+            text-decoration: none;
+            font-family: Roboto Condensed;
+            font-weight: bolder;
+            text-transform: uppercase;
+            border-radius: 3px;
+            color: #FFFFFF;
+            letter-spacing: .03em;
+    
+        }
+    }
+}
