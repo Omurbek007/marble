@@ -1,0 +1,95 @@
+.work {
+    background-color: #F7F7F7;
+    
+    
+    .container {
+        border-top: 2px solid #DCDCDC;
+        padding: 50px 0 63px 0;
+    }
+
+    &__card {
+        width: 356px; 
+    }
+    &__inner {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__label {
+        font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 35px;
+text-align: center;
+text-transform: uppercase;
+color: #4E4E4E;
+    }
+    &__image {
+        margin: 22px 0 25px 0;
+    }
+
+    &__heading {
+        margin-bottom: 5px;
+        font-family: Roboto condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+text-transform: capitalize;
+color: #4E4E4E;
+    }
+
+    &__proffession {
+        font-family: Roboto condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 20px;
+text-transform: capitalize;
+color: #ADADAD;
+    }
+
+    &__text {
+        font-family: Roboto condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+color: #5C5C5C;
+    }
+}
+
+.quote {
+    background-color: #EFEFEF;
+
+    &__inner {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 775px;
+        min-height: 284px;
+    }
+
+    &__block {
+        font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #A1A1A1;
+    }
+    &__sign {
+        line-height: .5em;
+        color: #DCDCDC;
+        font-size: 6em;
+        margin-bottom: 56px;
+    }
+
+    
+}

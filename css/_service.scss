@@ -1,0 +1,39 @@
+.service {
+    background-color: #F7F7F7;
+    .service__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    // align-items: center;
+}
+    &__card {
+        width: 223px;
+        height: 257px;
+        margin: 72px 0 42px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        font-family: Roboto condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+    }
+
+
+&__logo {
+    margin-bottom: 30px;
+}
+&__heading h2 {
+    margin-bottom: 18px;
+    font-family: Roboto condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+text-transform: capitalize;
+color: #4E4E4E;
+}
+}
